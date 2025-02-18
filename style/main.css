@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  width: 120px;
+}
+.header__item {
+  display: flex;
+  gap: 40px;
+}
+.header__item__list__link {
+  color: black;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.header__item__list__link:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=main.css.map */
