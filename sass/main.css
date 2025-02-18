@@ -13,16 +13,11 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 460px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .header__logo {
   width: 120px;
 }
